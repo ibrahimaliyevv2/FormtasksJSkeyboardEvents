@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-box{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+}
+
+.window-box .circle{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.window-box .dot{
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    position: absolute;
+    border-radius: 50%;
+    top: 300px;
+    left: 500px;
+}
